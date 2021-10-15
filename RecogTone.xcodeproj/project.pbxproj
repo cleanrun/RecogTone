@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8E26AB2709C1AD004CADAC /* RecogToneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E26AA2709C1AD004CADAC /* RecogToneApp.swift */; };
+		EC8E26AD2709C1AD004CADAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E26AC2709C1AD004CADAC /* ContentView.swift */; };
+		EC8E26AF2709C1B1004CADAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8E26AE2709C1B1004CADAC /* Assets.xcassets */; };
+		EC8E26B22709C1B1004CADAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8E26B12709C1B1004CADAC /* Preview Assets.xcassets */; };
+		EC8E26BC2709C1B1004CADAC /* RecogToneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E26BB2709C1B1004CADAC /* RecogToneTests.swift */; };
+		EC8E26C62709C1B1004CADAC /* RecogToneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E26C52709C1B1004CADAC /* RecogToneUITests.swift */; };
+		EC8E26C82709C1B1004CADAC /* RecogToneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E26C72709C1B1004CADAC /* RecogToneUITestsLaunchTests.swift */; };
+		EC8E27112709C2B6004CADAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E27102709C2B6004CADAC /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8E26B82709C1B1004CADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8E269F2709C1AD004CADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8E26A62709C1AD004CADAC;
+			remoteInfo = RecogTone;
+		};
+		EC8E26C22709C1B1004CADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8E269F2709C1AD004CADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8E26A62709C1AD004CADAC;
+			remoteInfo = RecogTone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8E26A72709C1AD004CADAC /* RecogTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecogTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8E26AA2709C1AD004CADAC /* RecogToneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogToneApp.swift; sourceTree = "<group>"; };
+		EC8E26AC2709C1AD004CADAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC8E26AE2709C1B1004CADAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8E26B12709C1B1004CADAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC8E26B72709C1B1004CADAC /* RecogToneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecogToneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8E26BB2709C1B1004CADAC /* RecogToneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogToneTests.swift; sourceTree = "<group>"; };
+		EC8E26C12709C1B1004CADAC /* RecogToneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecogToneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8E26C52709C1B1004CADAC /* RecogToneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogToneUITests.swift; sourceTree = "<group>"; };
+		EC8E26C72709C1B1004CADAC /* RecogToneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecogToneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC8E27102709C2B6004CADAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8E26A42709C1AD004CADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E26B42709C1B1004CADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E26BE2709C1B1004CADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8E269E2709C1AD004CADAC = {
+			isa = PBXGroup;
+			children = (
+				EC8E26A92709C1AD004CADAC /* RecogTone */,
+				EC8E26BA2709C1B1004CADAC /* RecogToneTests */,
+				EC8E26C42709C1B1004CADAC /* RecogToneUITests */,
+				EC8E26A82709C1AD004CADAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8E26A82709C1AD004CADAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E26A72709C1AD004CADAC /* RecogTone.app */,
+				EC8E26B72709C1B1004CADAC /* RecogToneTests.xctest */,
+				EC8E26C12709C1B1004CADAC /* RecogToneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8E26A92709C1AD004CADAC /* RecogTone */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E27152709C302004CADAC /* Utils */,
+				EC8E27142709C2F7004CADAC /* Models */,
+				EC8E27132709C2EE004CADAC /* Life Cycle */,
+				EC8E27122709C2E6004CADAC /* Views */,
+				EC8E26AE2709C1B1004CADAC /* Assets.xcassets */,
+				EC8E26B02709C1B1004CADAC /* Preview Content */,
+			);
+			path = RecogTone;
+			sourceTree = "<group>";
+		};
+		EC8E26B02709C1B1004CADAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E26B12709C1B1004CADAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC8E26BA2709C1B1004CADAC /* RecogToneTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E26BB2709C1B1004CADAC /* RecogToneTests.swift */,
+			);
+			path = RecogToneTests;
+			sourceTree = "<group>";
+		};
+		EC8E26C42709C1B1004CADAC /* RecogToneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E26C52709C1B1004CADAC /* RecogToneUITests.swift */,
+				EC8E26C72709C1B1004CADAC /* RecogToneUITestsLaunchTests.swift */,
+			);
+			path = RecogToneUITests;
+			sourceTree = "<group>";
+		};
+		EC8E27122709C2E6004CADAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E26AC2709C1AD004CADAC /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC8E27132709C2EE004CADAC /* Life Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E27102709C2B6004CADAC /* AppDelegate.swift */,
+				EC8E26AA2709C1AD004CADAC /* RecogToneApp.swift */,
+			);
+			path = "Life Cycle";
+			sourceTree = "<group>";
+		};
+		EC8E27142709C2F7004CADAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC8E27152709C302004CADAC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8E26A62709C1AD004CADAC /* RecogTone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8E26CB2709C1B1004CADAC /* Build configuration list for PBXNativeTarget "RecogTone" */;
+			buildPhases = (
+				EC8E26A32709C1AD004CADAC /* Sources */,
+				EC8E26A42709C1AD004CADAC /* Frameworks */,
+				EC8E26A52709C1AD004CADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecogTone;
+			productName = RecogTone;
+			productReference = EC8E26A72709C1AD004CADAC /* RecogTone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8E26B62709C1B1004CADAC /* RecogToneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8E26CE2709C1B1004CADAC /* Build configuration list for PBXNativeTarget "RecogToneTests" */;
+			buildPhases = (
+				EC8E26B32709C1B1004CADAC /* Sources */,
+				EC8E26B42709C1B1004CADAC /* Frameworks */,
+				EC8E26B52709C1B1004CADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8E26B92709C1B1004CADAC /* PBXTargetDependency */,
+			);
+			name = RecogToneTests;
+			productName = RecogToneTests;
+			productReference = EC8E26B72709C1B1004CADAC /* RecogToneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC8E26C02709C1B1004CADAC /* RecogToneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8E26D12709C1B1004CADAC /* Build configuration list for PBXNativeTarget "RecogToneUITests" */;
+			buildPhases = (
+				EC8E26BD2709C1B1004CADAC /* Sources */,
+				EC8E26BE2709C1B1004CADAC /* Frameworks */,
+				EC8E26BF2709C1B1004CADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8E26C32709C1B1004CADAC /* PBXTargetDependency */,
+			);
+			name = RecogToneUITests;
+			productName = RecogToneUITests;
+			productReference = EC8E26C12709C1B1004CADAC /* RecogToneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8E269F2709C1AD004CADAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EC8E26A62709C1AD004CADAC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EC8E26B62709C1B1004CADAC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EC8E26A62709C1AD004CADAC;
+					};
+					EC8E26C02709C1B1004CADAC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EC8E26A62709C1AD004CADAC;
+					};
+				};
+			};
+			buildConfigurationList = EC8E26A22709C1AD004CADAC /* Build configuration list for PBXProject "RecogTone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8E269E2709C1AD004CADAC;
+			productRefGroup = EC8E26A82709C1AD004CADAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8E26A62709C1AD004CADAC /* RecogTone */,
+				EC8E26B62709C1B1004CADAC /* RecogToneTests */,
+				EC8E26C02709C1B1004CADAC /* RecogToneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8E26A52709C1AD004CADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E26B22709C1B1004CADAC /* Preview Assets.xcassets in Resources */,
+				EC8E26AF2709C1B1004CADAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E26B52709C1B1004CADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E26BF2709C1B1004CADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8E26A32709C1AD004CADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E27112709C2B6004CADAC /* AppDelegate.swift in Sources */,
+				EC8E26AD2709C1AD004CADAC /* ContentView.swift in Sources */,
+				EC8E26AB2709C1AD004CADAC /* RecogToneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E26B32709C1B1004CADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E26BC2709C1B1004CADAC /* RecogToneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8E26BD2709C1B1004CADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8E26C62709C1B1004CADAC /* RecogToneUITests.swift in Sources */,
+				EC8E26C82709C1B1004CADAC /* RecogToneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8E26B92709C1B1004CADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8E26A62709C1AD004CADAC /* RecogTone */;
+			targetProxy = EC8E26B82709C1B1004CADAC /* PBXContainerItemProxy */;
+		};
+		EC8E26C32709C1B1004CADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8E26A62709C1AD004CADAC /* RecogTone */;
+			targetProxy = EC8E26C22709C1B1004CADAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC8E26C92709C1B1004CADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC8E26CA2709C1B1004CADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8E26CC2709C1B1004CADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecogTone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.RecogTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8E26CD2709C1B1004CADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecogTone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.RecogTone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC8E26CF2709C1B1004CADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.RecogToneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecogTone.app/RecogTone";
+			};
+			name = Debug;
+		};
+		EC8E26D02709C1B1004CADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.RecogToneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecogTone.app/RecogTone";
+			};
+			name = Release;
+		};
+		EC8E26D22709C1B1004CADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.RecogToneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecogTone;
+			};
+			name = Debug;
+		};
+		EC8E26D32709C1B1004CADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanrun.RecogToneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecogTone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8E26A22709C1AD004CADAC /* Build configuration list for PBXProject "RecogTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8E26C92709C1B1004CADAC /* Debug */,
+				EC8E26CA2709C1B1004CADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8E26CB2709C1B1004CADAC /* Build configuration list for PBXNativeTarget "RecogTone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8E26CC2709C1B1004CADAC /* Debug */,
+				EC8E26CD2709C1B1004CADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8E26CE2709C1B1004CADAC /* Build configuration list for PBXNativeTarget "RecogToneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8E26CF2709C1B1004CADAC /* Debug */,
+				EC8E26D02709C1B1004CADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8E26D12709C1B1004CADAC /* Build configuration list for PBXNativeTarget "RecogToneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8E26D22709C1B1004CADAC /* Debug */,
+				EC8E26D32709C1B1004CADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8E269F2709C1AD004CADAC /* Project object */;
+}
